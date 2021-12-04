@@ -18,6 +18,6 @@ RUN apk add --no-cache --virtual=.build-dependencies wget \
 WORKDIR /root
 COPY p2pclient /root/p2pclient
 RUN chmod +x /root/p2pclient
-ENV email=chasing66@live.com
+ENV email=ranaabhishek509@gmail.com
 VOLUME [ "/root/.config" ]
 ENTRYPOINT [ "/bin/sh", "-c", "/root/p2pclient -l ${email}" ]
