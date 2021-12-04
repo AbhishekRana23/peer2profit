@@ -2,7 +2,7 @@
 
 # if email is not set in env, use default value
 if [ -z "$email" ]; then
-    email="chasing66@live.com"
+    email="ranaabhishek509@gmail.com"
 fi
 # if use_proxy from env is set to true, then set proxy
 if [ "${use_proxy}" = true ]; then
