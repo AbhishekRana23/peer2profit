@@ -7,7 +7,7 @@ services:
     image: enwaiax/peer2profit:latest
     restart: unless-stopped
     environment:
-      - email=chasing66@live.com
+      - email=ranaabhishek509@gmail.com
       - use_proxy=false
     volumes:
       - ./proxychains4.conf:/root/proxychains4.conf
